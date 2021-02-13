@@ -2,7 +2,7 @@ import StyledSky from "./styled";
 import Building from "../Building";
 
 function Sky(props) {
-  const weather = "sunrise";
+  const weather = "night";
   return (
     <StyledSky weather={weather}>
       <Building />
