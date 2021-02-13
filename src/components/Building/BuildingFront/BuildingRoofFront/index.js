@@ -1,5 +1,5 @@
 import StyledBuildingRoofFront from "./styled";
-import StyledDividerFront from "../../DividerFront";
+import DividerFront from "../../DividerFront";
 
 function BuildingRoofFront() {
   return (
