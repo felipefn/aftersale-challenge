@@ -14,17 +14,20 @@ body {
 }
 
 .sky.sunrise {
-  background: url(), linear-gradient(120deg, #f6d365 100%, #fda085 100%);
+  background: url(./images/buildings.svg),
+    linear-gradient(120deg, #f6d365 100%, #fda085 100%);
   background-size: 100% 100%;
 }
 
 .sky.night {
-  background: url(), linear-gradient(180deg, #2a5298 100%, #1e3c72 100%);
+  background: url(./images/buildings.svg),
+    linear-gradient(180deg, #2a5298 100%, #1e3c72 100%);
   background-size: 100% 100%;
 }
 
 .sky.day {
-  background: url(), linear-gradient(180deg, #04befe 100%, #68e0cf 100%);
+  background: url(./images/buildings.svg),
+    linear-gradient(180deg, #04befe 100%, #68e0cf 100%);
   background-size: 100% 100%;
 }
 
@@ -89,6 +92,12 @@ body {
   width: 10px;
   height: 34px;
   background-color: #455a64;
+}
+
+.building-front-outdoor {
+  width: 108px;
+  height: 44px;
+  background: #584e81;
 }
 
 .building-side {
