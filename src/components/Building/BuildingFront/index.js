@@ -1,12 +1,15 @@
 import StyledBuildingFront from "./styled";
 import BuildingBodyFront from "./BuildingBodyFront";
 import BuildingRoofFront from "./BuildingRoofFront";
+import BuildingFrontOutdoor from "./BuildingFrontOutdoor";
+
 
 function BuildingFront() {
   return (
     <StyledBuildingFront>
-      <BuildingBodyFront></BuildingBodyFront>
+      <BuildingFrontOutdoor></BuildingFrontOutdoor>
       <BuildingRoofFront></BuildingRoofFront>
+      <BuildingBodyFront></BuildingBodyFront>
     </StyledBuildingFront>
   );
 }
