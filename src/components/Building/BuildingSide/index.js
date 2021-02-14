@@ -1,14 +1,12 @@
 import StyledBuildingSide from "./styled";
-import BuildingRoofSide from "./BuildingRoofSide"
-import buildingBodySide from "./BuildingBodySide"
-
+import BuildingRoofSide from "./BuildingRoofSide";
+import BuildingBodySide from "./BuildingBodySide";
 
 function BuildingSide() {
   return (
     <StyledBuildingSide>
-        <BuildingRoofSide/>
-        <buildingBodySide/>
-      
+      <BuildingRoofSide />
+      <BuildingBodySide />
     </StyledBuildingSide>
   );
 }
